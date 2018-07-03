@@ -1,0 +1,44 @@
+body{
+	background-color: #2F2A72;
+	color: #FFF;
+	font-family: Futura;
+}
+img{
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+h1{
+	font-size: 50px;
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+#slogan{
+	color: #FFF;
+	font-size: 40px;
+	font-family: Courier New;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 50px;
+
+}
+p{
+	color: #F7F4C2;
+	font-family: Courier New;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: thin;
+	text-align: center;
+
+}
+a{
+	color: #F01FB9;
+	font-family: Futura;
+	font-size: 20px;
+	text-align: center;
+
+}
