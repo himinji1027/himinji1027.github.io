@@ -12,6 +12,7 @@ h1{
 	text-align: left;
 	margin-top: 40px;
 	margin-left: 40px;
+	letter-spacing: 1px;
 }
 
 img{
@@ -57,6 +58,10 @@ a{
 	text-align: center;
 	margin-top: 50px;
 
+}
+
+hr {
+	border-color: #FFF;
 }
 
 

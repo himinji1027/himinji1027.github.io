@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Shadows+Into+Light');
+
+header{
+	background-color: #FFF;
+	color: #FFB4A6;
+	font-family: 'Shadows Into Light', cursive;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1{
+	font-size: 60px;
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 40px;
+	letter-spacing: .1em;
+}
+
+nav{
+	background-color: #B8D1C1;
+	color: #FFF;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	text-align: right;
+	border: 1px black solid;
+	padding: 20px;
+}
+ul,li {
+	display: inline;
+}
+
+#one{
+	border: 1px black solid;
+
+}
+#slogan{
+	color: #FFB4A6;
+	font-size: 40px;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 50px;
+
+}
+.profile{
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+#two{
+	background-color: #FFB4A6;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+#picture{
+	margin-left: 300px;
+	padding: 20px;
+}
+
+#description{
+	text-align: left;
+	margin-right: 40px;
+	color: #FFF;
+
+}
+#des{
+	color: #FFF;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: lighter;
+}
+
+#three{
+	border: 1px black solid;
+	padding: 20px;
+}
+#image3{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+p{
+	color: #FFB4A6;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	font-weight: thin;
+	margin-top: 20px;
+	text-align: center;
+}
+a{
+	color: #191C1A;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+footer{
+	background-color: #B8D1C1;
+	border: 1px black solid;
+	padding: 20px;
+}
+h2{
+	color: #FFB4A6;
+	font-size: 40px;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: lighter;
+	text-align: left;
+}
