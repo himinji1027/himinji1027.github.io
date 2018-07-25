@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Shadows+Into+Light');
+
+
+nav{
+	background-color: #000;
+	border: 1px black solid;
+}
+
+nav a{
+	background-color: #000;
+	color: #FFF;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	float: left;
+}
+
+a:hover {
+	background-color: #FCCBC6;
+}
+
+#sec1{
+	border: 1px black solid;
+	padding: 200px;
+
+}
+
+.profile{
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin: auto;
+	border: 1px black solid;
+	border-radius: 50%;
+}
+
+p{
+	color: #757575;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	font-weight: thin;
+	margin-top: 20px;
+	text-align: center;
+}
+
+a{
+	font-size: 30px;
+	font-family: futura;
+	color: #FFB4A6;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+#two_column{
+	background-color: #FCCBC6;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+
+#left{
+	background-color: #FFF;
+	border: 1px black solid;
+float: left;
+width: 30%;
+}
+
+.design_statement{
+	display: block;
+	margin: auto;
+	Width: 300px;
+}
+
+#right{
+	background-color: #FFF;
+	border: 1px black solid;
+	float: right;
+	width: 62%;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+
+}
+
+
+footer{
+	background-color: #757575;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h2{
+	color: #FFF;
+	font-size: 20px;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: lighter;
+	text-align: left;
+	margin-bottom: 20px;
+}
+h3{
+	color: #FFF;
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	text-align: left;
+	margin-bottom: 20px;
+}
+h4{
+	color: #FFF;
+	font-family: Futura;
+	font-size: 20px;
+}
