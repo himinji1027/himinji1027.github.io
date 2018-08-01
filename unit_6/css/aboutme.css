@@ -21,20 +21,6 @@ a:hover {
 	color: #FCCBC6;
 }
 
-#sec1{
-	border: 1px black solid;
-	padding: 200px;
-
-}
-
-.profile{
-	width: 300px;
-	height: 300px;
-	display: block;
-	margin: auto;
-	border: 1px black solid;
-	border-radius: 50%;
-}
 
 p{
 	color: #757575;
@@ -56,32 +42,6 @@ a{
 
 }
 
-#two_column{
-	background-color: #FCCBC6;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-
-
-#left{
-	float: left;
-	width: 30%;
-}
-
-.design_statement{
-	display: block;
-	margin: auto;
-	width: 300px;
-}
-
-#right{
-	float: right;
-	width: 62%;
-	margin-top: 10%;
-	padding: 20px;
-	line-height: 1.5;
-}
 
 .clearfix:after {
 	visibility: hidden;
@@ -98,6 +58,15 @@ footer{
 	background-color: #000;
 	border: 1px black solid;
 	padding: 20px;
+}
+h1{
+	color: #505050;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 50px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 30px;
+
 }
 
 h2{
