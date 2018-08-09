@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100|Inconsolata|Quicksand|Shadows+Into+Light|Kirang+Haerang|Playfair+Display|Ubuntu');
+
+
+nav{
+	background-color: #FFF;
+	margin-top: 1em;
+	margin-left: .5em;
+}
+
+nav a{
+	background-color: #FFF;
+	color: #000;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	float: left;
+}
+
+a:hover {
+	color: #FCCBC6;
+}
+
+
+a{
+	font-size: 30px;
+	font-family: futura;
+	color: #FFB4A6;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+
+}
+#sec1{
+	padding: 300px;
+}
+
+footer{
+	background-color: #757575;
+	padding: 20px;
+}
+
+h1{
+	color: #505050;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+	letter-spacing: 5px;
+
+}
+
+p{
+	color: #757575;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: thin;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 3px;
+}
+
+ul{
+	color: #757575;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: thin;
+	margin-top: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: left;
+	line-height: 1.5;
+	display: block;
+	list-style-type: circle;
+	letter-spacing: 1px;
+}
+
+h5{
+	color: #FFF;
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+h6{
+	color: #FFF;
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+h6.copyright{
+	color: #FFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.Volunteering{
+	margin-bottom: 50px;
+}
+

@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Lato:100|Inconsolata|Quicksand|Shadows+Into+Light|Kirang+Haerang|Playfair+Display|Ubuntu');
 
 
 nav{
-	background-color: #000;
-	border: 1px black solid;
+	background-color: #FFF;
+	margin-top: 1em;
+	margin-left: .5em;
 }
 
 nav a{
-	background-color: #000;
-	color: #FFF;
-	font-family: 'Shadows Into Light', cursive;
+	background-color: #FFF;
+	color: #000;
+	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	text-decoration: none;
 	display: inline-block;
@@ -21,16 +22,6 @@ a:hover {
 	color: #FCCBC6;
 }
 
-
-p{
-	color: #757575;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 18px;
-	font-weight: thin;
-	margin-top: 20px;
-	text-align: center;
-	line-height: 1.5;
-}
 
 a{
 	font-size: 30px;
@@ -55,29 +46,92 @@ a{
 
 
 footer{
-	background-color: #000;
-	border: 1px black solid;
+	background-color: #757575;
 	padding: 20px;
 }
+
 h1{
 	color: #505050;
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 50px;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
 	text-align: center;
 	padding: 20px;
-	margin-top: 30px;
+	margin-top: 50px;
+	letter-spacing: 2px;
 
 }
 
 h2{
+	color: #505050;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 30px;
+	letter-spacing: 2px;
+
+}
+
+h3{
+	color: #757575;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+
+}
+
+h4{
+	color: #757575;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+
+}
+p{
+	color: #757575;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	font-weight: thin;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+
+ul{
+	color: #757575;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: thin;
+	margin-top: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: left;
+	line-height: 1.5;
+	display: block;
+	list-style-type: circle;
+	letter-spacing: 1px;
+}
+
+h5{
 	color: #FFF;
 	font-size: 20px;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Playfair Display', serif;
 	font-weight: lighter;
+	letter-spacing: 2px;
 	text-align: left;
-	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
-h3{
+h6{
 	color: #FFF;
 	font-size: 15px;
 	font-family: 'Quicksand', sans-serif;
@@ -85,8 +139,14 @@ h3{
 	text-align: left;
 	margin-bottom: 20px;
 }
-h4{
+
+h6.copyright{
 	color: #FFF;
-	font-family: Futura;
-	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
 }
+.Volunteering{
+	margin-bottom: 50px;
+}
+
