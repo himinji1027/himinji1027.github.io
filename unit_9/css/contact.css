@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100|Inconsolata|Quicksand|Shadows+Into+Light|Kirang+Haerang|Playfair+Display|Ubuntu');
+
+body{
+	font-size: 20px;
+}
+
+nav{
+	background-color: #FFF;
+	padding: 1em;
+}
+
+nav a{
+	background-color: #FFF;
+	color: #000;
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1%;
+	float: left;
+}
+
+a:hover {
+	color: #FCCBC6;
+}
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+
+}
+#sec1{
+	padding: 5em;
+}
+
+footer{
+	background-color: #757575;
+	padding: 1em;
+}
+
+h1{
+	color: #505050;
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	text-align: center;
+	padding: 1em;
+	margin-top: 2.5em;
+	letter-spacing: .25em;
+
+}
+
+p{
+	color: #757575;
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	font-weight: thin;
+	margin-top: 1em;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: .15em;
+}
+
+
+
+h5{
+	color: #FFF;
+	font-size: 1em;
+	font-family: 'Playfair Display', serif;
+	font-weight: lighter;
+	letter-spacing: .1em;
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 2.5em;
+}
+h6{
+	color: #FFF;
+	font-size: .75em;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+h6.copyright{
+	color: #FFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+	nav a {
+		float: none;
+		display: block;
+		font-size: .8em;
+		padding: .5em;
+	}
+	footer {
+		width: 480px;
+	}
+	h1 p {
+		padding: 20px;
+	}
+
+	p {
+		margin-bottom: 10em;
+	}
+	#sec1 {
+		padding: 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

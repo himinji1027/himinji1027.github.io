@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100|Inconsolata|Quicksand|Shadows+Into+Light|Kirang+Haerang|Playfair+Display|Ubuntu');
+
+body {
+	font-size: 20px;
+}
+nav{
+	background-color: #FFF;
+	padding: 1em;
+}
+
+nav a{
+	background-color: #FFF;
+	color: #000;
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1%;
+	float: left;
+}
+
+a:hover {
+	color: #FCCBC6;
+}
+
+#sec1{
+	padding: 7.5em;
+
+}
+
+.profile{
+	width: 15em;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	padding: 2%;
+}
+
+h1{
+	color: #333;
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	text-align: center;
+	line-height: 2;
+	letter-spacing: .1em;
+}
+
+p{
+	color: #000;
+	font-family: 'Playfair Display', serif;
+	font-size: .75em;
+	margin-top: 1.5em;
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 2;
+	letter-spacing: .1em;
+	text-align: justify;
+	
+
+}
+
+
+#three_column{
+
+	background-color: #f6eaea;
+	margin: 0 auto 0;
+}
+
+
+.home_image_1, .home_image_2, .home_image_3{
+
+	width: 29%;
+	padding: 1%;
+	margin: 0 1%;
+
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+
+}
+
+
+footer{
+	background-color: #757575;
+	padding: 1em;
+}
+
+h2{
+	color: #FFF;
+	font-size: 1em;
+	font-family: 'Playfair Display', serif;
+	font-weight: lighter;
+	letter-spacing: .1em;
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 2.5em;
+}
+h3{
+	color: #FFF;
+	font-size: .75em;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	text-align: left;
+	margin-bottom: 1em;
+}
+h4{
+	color: #FFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 840px) {
+	a {
+		font-size: .7em;
+	}
+	h1{
+		padding: 1%;
+	}
+	p {
+		margin: 0 auto;
+		padding: 1%;
+	}
+	
+	.home_image_1, .home_image_2, .home_image_3 {
+		width: 28%;
+	}
+	.home_image_1 {
+		margin-left: .9em;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	nav a {
+		float: none;
+		display: block;
+		font-size: .8em;
+		padding: .5em;
+	}
+	#sec1 {
+		padding: 1em;
+	}
+	.profile {
+		width: 50%;
+
+	}
+	h1 {
+		font-size: .8em;
+		padding: 1%;
+
+	}
+	p {
+		font-size: .6em;
+	}
+	#three_column {
+		width: 480px;
+		background-color: #FFF;
+	}
+	.home_image_1, .home_image_2, .home_image_3 {
+		width: 440px;
+		margin: 0 auto 0;
+		padding: 1em;
+	}
+	footer {
+		width: 480px;
+	}
+}

@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100|Inconsolata|Quicksand|Shadows+Into+Light|Kirang+Haerang|Playfair+Display|Ubuntu');
 
+body{
+	font-size: 20px;
+}
 
 nav{
 	background-color: #FFF;
-	margin-top: 1em;
-	margin-left: .5em;
+	padding: 1em;
 }
 
 nav a{
 	background-color: #FFF;
 	color: #000;
 	font-family: 'Playfair Display', serif;
-	font-size: 20px;
+	font-size: 1em;
 	text-decoration: none;
 	display: inline-block;
-	padding: 10px;
+	padding: 1%;
 	float: left;
 }
 
@@ -22,16 +24,6 @@ a:hover {
 	color: #FCCBC6;
 }
 
-
-a{
-	font-size: 30px;
-	font-family: futura;
-	color: #FFB4A6;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-
-}
 
 
 .clearfix:after {
@@ -47,106 +39,133 @@ a{
 
 footer{
 	background-color: #757575;
-	padding: 20px;
+	padding: 1em;
 }
 
 h1{
 	color: #505050;
 	font-family: 'Playfair Display', serif;
-	font-size: 40px;
+	font-size: 2em;
 	text-align: center;
-	padding: 20px;
-	margin-top: 50px;
-	letter-spacing: 2px;
+	padding: 1em;
+	margin-top: 2.5em;
+	letter-spacing: .1em;
 
 }
 
 h2{
 	color: #505050;
 	font-family: 'Playfair Display', serif;
-	font-size: 25px;
+	font-size: 1.25em;
 	text-align: center;
-	padding: 20px;
-	margin-top: 30px;
-	letter-spacing: 2px;
+	padding: 1em;
+	margin-top: 1.5em;
+	letter-spacing: .1em;
 
 }
 
 h3{
 	color: #757575;
 	font-family: 'Playfair Display', serif;
-	font-size: 15px;
+	font-size: .75em;
 	font-weight: bold;
-	margin-top: 20px;
+	margin-top: 1em;
 	text-align: center;
 	line-height: 1.5;
-	letter-spacing: 1px;
+	letter-spacing: .05em;
 
 }
 
 h4{
 	color: #757575;
 	font-family: 'Playfair Display', serif;
-	font-size: 15px;
+	font-size: .75em;
 	font-weight: bold;
-	margin-top: 20px;
+	margin-top: 1em;
 	text-align: center;
 	line-height: 1.5;
-	letter-spacing: 1px;
+	letter-spacing: .05em;
 
 }
 p{
 	color: #757575;
 	font-family: 'Playfair Display', serif;
-	font-size: 15px;
+	font-size: .75em;
 	font-weight: thin;
-	margin-top: 20px;
+	margin-top: 1em;
 	text-align: center;
 	line-height: 1.5;
-	letter-spacing: 1px;
+	letter-spacing: .05em;
 }
 
 ul{
 	color: #757575;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 15px;
+	font-size: .75em;
 	font-weight: thin;
-	margin-top: 20px;
+	margin-top: 1em;
 	margin-left: 30%;
 	margin-right: 30%;
-	text-align: left;
+	text-align: justify;
 	line-height: 1.5;
 	display: block;
 	list-style-type: circle;
-	letter-spacing: 1px;
+	letter-spacing: .05em;
 }
 
 h5{
 	color: #FFF;
-	font-size: 20px;
+	font-size: 1em;
 	font-family: 'Playfair Display', serif;
 	font-weight: lighter;
-	letter-spacing: 2px;
+	letter-spacing: .1em;
 	text-align: left;
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-top: 1em;
+	margin-bottom: 2.5em;
 }
 h6{
 	color: #FFF;
-	font-size: 15px;
+	font-size: .75em;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: lighter;
 	text-align: left;
-	margin-bottom: 20px;
+	margin-bottom: 1em;
 }
 
 h6.copyright{
 	color: #FFF;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 15px;
+	font-size: .75em;
 	font-weight: bold;
 }
 .Volunteering{
-	margin-bottom: 50px;
+	margin-bottom: 2.5em;
+}
+
+
+@media only screen and (max-width: 840px) {
+	ul {
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	nav a {
+		float: none;
+		display: block;
+		font-size: .8em;
+		padding: .5em;
+	}
+
+
+	ul {
+		width: 50%;
+	}
+	footer {
+		width: 480px;
+	}
+
+
 }
 
