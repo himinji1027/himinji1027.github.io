@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100|Inconsolata|Quicksand|Shadows+Into+Light|Kirang+Haerang|Playfair+Display|Ubuntu');
 
+* {margin:0; padding:0; box-sizing: border-box;}
+
 body {
 	font-size: 20px;
 }
@@ -24,8 +26,9 @@ a:hover {
 }
 
 #sec1{
-	padding: 7.5em;
-
+	padding: 7.5em 1em;
+	max-width: 600px;
+	margin: auto;
 }
 
 .profile{
@@ -50,11 +53,9 @@ p{
 	font-family: 'Playfair Display', serif;
 	font-size: .75em;
 	margin-top: 1.5em;
-	margin-left: 20%;
-	margin-right: 20%;
-	line-height: 2;
+	line-height: 1.5;
 	letter-spacing: .1em;
-	text-align: justify;
+	text-align: left;
 	
 
 }
@@ -63,17 +64,20 @@ p{
 #three_column{
 
 	background-color: #f6eaea;
-	margin: 0 auto 0;
+	width: 100%;
+	
 }
 
 
 .home_image_1, .home_image_2, .home_image_3{
 
-	width: 29%;
-	padding: 1%;
-	margin: 0 1%;
+	width: 33.33%;
+	padding: 1em;
+	float: left;
+	
 
 }
+
 
 
 .clearfix:after {
@@ -130,11 +134,12 @@ h4{
 	}
 	
 	.home_image_1, .home_image_2, .home_image_3 {
-		width: 28%;
+		width: 33.33%;
+		padding: 1em; 
+		float: left;
+
 	}
-	.home_image_1 {
-		margin-left: .9em;
-	}
+
 }
 
 @media only screen and (max-width: 480px){
@@ -152,23 +157,21 @@ h4{
 
 	}
 	h1 {
-		font-size: .8em;
+		
 		padding: 1%;
 
 	}
 	p {
-		font-size: .6em;
+		
 	}
 	#three_column {
-		width: 480px;
+		width: 100%;
 		background-color: #FFF;
 	}
 	.home_image_1, .home_image_2, .home_image_3 {
-		width: 440px;
+		width: 100%;
 		margin: 0 auto 0;
 		padding: 1em;
 	}
-	footer {
-		width: 480px;
-	}
+	
 }

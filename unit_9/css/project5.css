@@ -1,33 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100|Inconsolata|Quicksand|Shadows+Into+Light|Kirang+Haerang|Playfair+Display|Ubuntu');
 
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+	font-size: 20px;
+}
 
 nav{
 	background-color: #FFF;
-	margin-top: 1em;
-	margin-left: .5em;
+	padding: 1em;
 }
 
 nav a{
 	background-color: #FFF;
 	color: #000;
 	font-family: 'Playfair Display', serif;
-	font-size: 20px;
+	font-size: 1em;
 	text-decoration: none;
 	display: inline-block;
-	padding: 10px;
+	padding: 1%;
 	float: left;
-	font-weight: bold;
+	
 }
 
-ul a{
+li a{
 	color: #000;
 	font-family: 'Playfair Display', serif;
-	font-size: 20px;
+	font-size: 1em;
 	text-decoration: none;
-	margin-left: 5%;
+	margin-left: 4%;
 	margin-top: 1%;
-	display: block;
-	letter-spacing: 1px;
+	display: inline-block;
+	letter-spacing: .05em;
 	line-height: 1.5;
 
 }
@@ -51,11 +55,11 @@ a:hover {
 #sec1{
 	padding: 20px;
 }
+
 aside{
 	float: left;
 	color: #000;
 	font-family: 'Playfair Display', serif;
-	font-size: 20px;
 	text-decoration: none;
 	margin-left: 4%;
 	margin-top: 20%;
@@ -65,13 +69,15 @@ aside{
 
 }
 
+ul {
+	list-style-type: none;
+}
+
 
 #right{
 	float: right;
-	width: 60%;
-	margin-top: 6%;
-	margin-right: 2em;
-	margin-bottom: 6%;
+	width: 70%;
+	margin: auto;
 	padding: 20px;
 }
 
@@ -80,33 +86,44 @@ h1{
 	font-family: 'Playfair Display', serif;
 	font-size: 30px;
 	letter-spacing: 10px;
-	margin-left: 5%;
-	margin-bottom: 8%;
+	padding: 1em;
 	font-weight: thin;
+	text-align: center;
 }
 h5 {
 	color: #000;
 	font-family: 'Playfair Display', serif;
 	font-size: 15px;
-	margin-left: 5%;
-	margin-top: 8%;
-	margin-bottom: 4%;
+	padding: 1em;
 	font-weight: thin;
+	text-align: center;
 }
 
-h6 {
-	color: #000;
-	font-family: 'Playfair Display', serif;
-	font-size: 13px;
-	margin-left: 5%;
-	margin-bottom: 2%;
-	font-weight: thin;
-}
+
+
 img{
-	width: 600px;
-	margin-left: 5%;
-	margin-top: 5%;
+	width: 100%;
+	padding: 1em;
 }
+
+#bottom {
+	font-family: 'Playfair Display', serif;
+	color: #000;
+	width: 100%;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 1em;
+	margin-bottom: 1em;
+	float: none;
+	display: inline-block;
+	text-align: center;
+
+}
+
+#bottom:hover {
+	color: #FCCBC6;
+}
+
 footer{
 	background-color: #757575;
 	padding: 20px;
@@ -136,3 +153,54 @@ h4{
 	font-size: 15px;
 	font-weight: bold;
 }
+
+@media only screen and (max-width: 840px) {
+	aside {
+		display: none;
+	}
+	ul { 
+	float: none;
+	display: none;
+}
+
+	#right{
+	float: right;
+	width: 100%;
+	margin-top: none;
+	margin-bottom: 6%;
+}
+
+
+	img h1 h5 {
+		width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	nav a {
+		float: none;
+		display: block;
+		font-size: .8em;
+		padding: .5em;
+	}
+
+	aside {
+		display: none;
+		float: none;
+	}
+
+	#right {
+		margin: none;
+	}
+
+	img {
+		width: 100%;
+	}
+	
+	
+
+}
+
+
+

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100|Inconsolata|Quicksand|Shadows+Into+Light|Kirang+Haerang|Playfair+Display|Ubuntu');
 
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
 body {
 	font-size: 20px;
 }
@@ -67,7 +69,9 @@ aside{
 
 }
 
-
+ul {
+	list-style-type: none;
+}
 #right{
 	float: right;
 	width: 60%;
@@ -77,14 +81,13 @@ aside{
 	padding: 1em;
 }
 
-.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8{
-	width: 12.5em;
-	height: 12.5em;
+.block {
 	background-color: #F6EAEA;
 	color: #757575;
 	text-align: center;
 	display: inline-block;
 	margin: 2%;
+	line-height: 12.5em;
 }
 
 h5{
@@ -96,10 +99,13 @@ h5{
 	margin-top: 38%;
 }
 
-#link1, #link2, #link3, #link4, #link5, #link6, #link7, #link8{
+#link1 {
 	color: #757575;
 	text-decoration: none;
+	width: 12.5em;
+
 }
+
 footer{
 	background-color: #757575;
 	padding: 1em;
@@ -131,24 +137,10 @@ h4{
 }
 
 @media only screen and (max-width: 840px) {
-	aside {
-		display: none;
-		float: none;
+	aside{
+		font-size: 90%;
+		margin-bottom: 1em;
 	}
-
-	#right {
-	float: none;
-	margin: auto;
-	align-content: center;
-
-
-	}
-	.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8{
-
-		width: 480px;
-		height: 480px;
-	}
-	
 }
 
 
@@ -167,22 +159,19 @@ h4{
 	}
 
 	#right {
-	float: none;
-	margin: auto;
-	align-content: center;
-
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		
 
 	}
-	.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8{
-
-		width: 264px;
-		height: 264px;
+	.block{
+		float: left;
+		width: 100%;
+		margin-left: 3em;
+		padding: 0;
 	}
-
-	footer {
-		width: 480px;
-	}
-
+	
 }
 
 
